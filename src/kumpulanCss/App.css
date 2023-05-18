@@ -1,0 +1,101 @@
+.parent {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+}
+
+.section-kiri {
+  width: 50%;
+  /* Cara center child dari sebuah div */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-kanan {
+  width: 50%
+}
+
+.google-signin {
+  height: 48px;
+  color: black;
+  width: 333px;
+  background-color: #FFFFFF;
+  border-color: #BCBCBC;
+  border-radius: 8px;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.garis-horizontal {
+  width: 165px;
+  height: 1px;
+  background-color: #BCBCBC;
+}
+
+.parentOr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+    border: none; /* Remove default borders */
+    border-bottom: 1px solid #BCBCBC; /* Add a bottom border */
+    outline: none; 
+    width: 365px;
+    height: 27px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.remember-me p {
+  margin-left: 5px;
+  color: black;
+}
+
+.rememberMedanForgotPassword {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 365px;
+}
+
+.fp {
+  border-bottom: 1px solid black;
+}
+
+.button-login {
+  background: #3CB44A;
+  color: white;
+  font-weight: bold;
+  width: 365px;
+  padding: 10px 15px;
+  border: none;
+  height: 48px;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-gray {
+  color: gray;
+}
+
+a {
+  border: none;
+  margin-left: 2px;
+  text-decoration: none;
+  color: black;
+}
